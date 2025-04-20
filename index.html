@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ВСЕ СВОИ</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f3f4f6;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    header {
+      background: #111827;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.3rem;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    button {
+      padding: 1rem;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+    }
+    footer {
+      display: flex;
+      justify-content: space-around;
+      padding: 0.5rem 0;
+      background: #e5e7eb;
+    }
+    footer button {
+      background: none;
+      color: #374151;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>ВСЕ СВОИ</header>
+  <main>
+    <p>Привет! Добро пожаловать в миниаппу клуба.</p>
+    <button onclick="alert('Пока только демонстрация 😊')">Открыть Колесо Баланса</button>
+  </main>
+  <footer>
+    <button>🏠 Главная</button>
+    <button>🎯 Цели</button>
+    <button>💰 Фонд</button>
+    <button>👤 Профиль</button>
+  </footer>
+</body>
+</html>
